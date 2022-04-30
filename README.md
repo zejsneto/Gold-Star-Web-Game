@@ -1,2 +1,2 @@
 # Gold-Star-Web-Game
-Projeto Semestral de Desenvolvimento Web, um jogo web point and click.
+Projeto Semestral II de Desenvolvimento Web, um jogo web point and click.
