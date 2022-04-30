@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gold Star - Jogar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="face_on_star.png" rel="icon">
+
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img  class="img" src="logo.png"></h1>
+            <br>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li> 
+                    <li><a href="star.html">Jogar</a></li>
+                    <li><a href="devs.html">DEVS</a></li>
+                </ul>
+            </nav>    
+        </div>    
+    </header>
+
+    <h1>Aperte iniciar para começar!</h1>
+    <h2>Instruções abaixo.</h2>
+    <button onclick="main();"> Iniciar </button>
+    <br>
+    <canvas id="mycanvas" height="500" width="600"></canvas>
+
+    <br>
+
+    <script src="star.js"></script>
+
+    <br>
+
+    <div>
+        <h1>Como jogar</h1>
+    </div>
+
+    <h2>
+        <span>Gold Star</span> é um jogo onde o seu objetivo é clicar 3 vezes na estrela dourada, porém a cada
+        clique sua velocidade aumenta. 
+    </h2>
+
+    <img src="img1.png" class="image">
+
+    <h2>
+        Ao clicar em um dos asteroides você perde uma vida. Ao perder 3 vidas você perde o jogo!
+    </h2>
+
+    <img src="img2.png" class="image">
+
+    <h2>Para reiniciar o jogo aperte F5!</h2>
+
+    <footer>
+        <img class="img" src="logo.png">
+        <p class="copyright">&copy; Copyright Gold Star - 2021</p>
+    </footer>
+
+</body>
+</html>
